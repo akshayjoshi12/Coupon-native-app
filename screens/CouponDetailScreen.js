@@ -10,7 +10,7 @@ const CouponDetailScreen = (props) => {
     return (
         <Card>
             <View>
-                <Text style={{fontFamily: 'open-sans-italic', fontSize: 20,}}>Welcome to Coupon Detail!!</Text>
+                <Text style={{fontFamily: 'open-sans-italic', fontSize: 20}}>Welcome to Coupon Detail!!</Text>
                 <TouchableHighlight>
                     <Button title="Calculate" onPress={CheckDetailButtonHandler} />
                 </TouchableHighlight>

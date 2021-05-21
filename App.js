@@ -7,9 +7,11 @@ import AppLoading from 'expo-app-loading';
 
 
 const fetchFonts = () => {
-  Font.loadAsync({
+  return Font.loadAsync({
     'open-sans' : require('./assets/fonts/OpenSans-Regular.ttf'),
-    'open-sans-italic' : require('./assets/fonts/OpenSans-Italic.ttf')
+    'open-sans-italic' : require('./assets/fonts/OpenSans-Italic.ttf'),
+    'open-sans-bold' : require('./assets/fonts/OpenSans-Bold.ttf'),
+    'open-sans-extrabold' : require('./assets/fonts/OpenSans-ExtraBold.ttf')
   });
 };
 
